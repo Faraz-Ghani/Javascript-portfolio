@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/Unity.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Unity ";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Space Slimes",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A 2d endless runner where we have to shoot and jump over way over slimes. Made with Unity and C#.",
+    url: "https://faraz-ghani.github.io/SpaceSlimes/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Cube Fly",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A remake of Flappy bird made during the 2023 MLH Game Hack Week. Made in unity",
+    url: "https://faraz-ghani.github.io/CubeFly/",
   },
   {
-    title: "My Resume Site",
+    title: "Snake Gane",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A remake of the popular Snake game made during the 2023 MLH Game Hack Week. Made in unity",
+    url: "https://faraz-ghani.github.io/SnakeGame/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Unity Learn, A Haven for Beginners!",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "An article i wrote about the Unity Learn platform and how it can help beginners learn Unity.",
+    url: "https://medium.com/@farazghani/unity-learn-a-haven-for-beginners-ff8564a2d13d",
   },
 ];
 
@@ -62,11 +62,7 @@ const Portfolio = () => {
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
+          
         </div>
         <div className="container">
           {projectList.map((project) => (
