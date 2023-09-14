@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Faraz Ghani",
-  title: "Web Designer & Content Creator",
+  title: "Game Developer & Video Editor",
   email: "farazghani12.com",
   gitHub: "faraz-ghani",
   instagram: "farazghani_",
