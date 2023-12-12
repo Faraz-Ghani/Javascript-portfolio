@@ -43,7 +43,7 @@ const projectList = [
     url: "https://faraz-ghani.github.io/CubeFly/",
   },
   {
-    title: "Snake Gane",
+    title: "Snake Game",
     description:
       "A remake of the popular Snake game made during the 2023 MLH Game Hack Week. Made in unity",
     url: "https://faraz-ghani.github.io/SnakeGame/",
